@@ -1,0 +1,42 @@
+html {
+    height: 0%;
+}
+
+body{
+    background: rgb(255, 248, 220);
+    background-size:300px 400px;
+     margin: 0%;    
+}
+
+section{
+    padding: 10vmin;
+    text-align: center;
+}
+
+#name {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#name2 {
+
+    font-family: 'Times New Roman', Times, serif;
+    border: 5px solid #FAEBD7;
+    width: 60%;
+    float: center;
+    border-color: black;
+}
+
+img {
+    width: 100vmin;
+}
+
+hr{
+    position: relative;
+    top: 70px;
+}
+
+button{
+    height: 100px;
+    width: 200px;
+}
+
