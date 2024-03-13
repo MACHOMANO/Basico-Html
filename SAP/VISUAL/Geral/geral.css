@@ -1,0 +1,63 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#primeira{
+    display: flex;
+    justify-content: space-around;
+}
+
+#produto{
+    background-color: rgba(217,233,253,255);
+    border-radius: 30px;
+    margin: 10px;
+    display: flex;
+
+}
+
+#imagens_1{
+    display:grid;
+}
+
+#texto_1_2{
+    color:blue;
+    font-size: larger;
+    padding-left: 15px;   
+    padding-top: 25px ;
+        h4{
+            color: white;
+            width: fit-content;
+            background-color:blue;
+            border-radius: 10px;
+        }
+}
+
+#texto_2_2{
+    padding-left: 80px;
+    padding-top: 25px;
+    padding-right: 80px;
+        p{
+            text-align: center;
+            color: white;
+            background-color: blue;
+            border-radius: 10px;
+        }
+}
+
+body{
+    background-color: white;
+    display: flex;
+}
+
+#sec1{
+    background-color: rgba(217,233,253,255);
+    border-radius: 30px;
+    border-right: 100px;
+    display: flex;   
+    margin: 10px;
+}
+
+#oi{
+    color: white;
+}
+
