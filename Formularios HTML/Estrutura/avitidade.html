@@ -1,0 +1,123 @@
+<html lang="pt-br">
+<head>
+    <title>Atividade HTML </title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="../Visual/geral.css">
+</head>
+<body>
+<section>
+    <form id="formulario" method="post"> 
+        <p> Envie uma mensagem preenchendo o formulário abaixo</p>
+        
+        <div class="field">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+        </div>
+        
+        <div class="field">
+            <label for="telefone">Seu Telefone:</label>
+            <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+        </div>
+
+        <div class="field">
+            <label for="email">Seu E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+        </div>        
+        <div class="field radiobox">
+            <span>Deseja receber nossas novidades?</span>
+            <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+            <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+        </div>
+        <div class="field">
+            <label for="mensagem">Sua mensagem:</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+        </div>
+
+        <input type="submit" name="acao" value="Enviar">
+    </form>
+    <div>
+        <h1 class="texto_grande">Esse é um exemplo de Formulario em Html</h1>
+        <hr class="hr">
+    </div>
+</section>
+<section>
+    <h1 class="texto_grande">Como funcionar o conteiner Form</h1>
+    <p class="texto_normal">É um lugar para agrupar os Inputs do formulario</p>
+    <hr>
+</section>    
+<section>
+    <h1 class="texto_grande">Tipos de input</h1>
+    <form action="../dados/" method="post">
+        <div>
+            <h1 class=>CHECKBOX</h1>
+            <input type="checkbox" name="veiculo1" value="bicicleta">Eu tenho uma bicicleta<br>
+            <input type="checkbox" name="veiculo2" value="carro">Eu tenho um carro<br>
+            <input type="checkbox" name="veiculo3" value="moto">Eu tenho uma moto
+        </div>
+        <div>
+            <h1>EMAIL</h1>
+            <input type="e-mail" name="email" placeholder="Digite seu e-mail">
+        </div>
+        <div>
+            <h1>TEXT</h1>
+            <input type="text" name="nome" placeholder="digite seu Nome aqui">
+        </div>
+        <div>
+            <h1>SUBMIT</h1>
+            <input type="submit" name="enviar" value="Enviar">    
+        </div>
+        <div>
+            <h1>BUTTON</h1>
+            <input type="button" value="Clique Aqui" onclick="msg()">
+        </div>
+        <div>
+            <h1>DATE</h1>
+            Data de nascimento: <input type="date" name="nascimento">
+        </div>
+        <div>
+            <h1>FILE</h1>
+            <input type="file" name="arquivos"> 
+        </div>
+        <div>
+            <h1>IMAGE</h1>
+            <input type="image" src="../Visual/imagen/download-removebg-preview (1).png" alt="Submit" width="48" height="48">
+        </div>
+        <div>
+            <h1>NUMBER</h1>
+            Quantidade (entre 1 e 5): <input type="number" name="quantidade" min="1" max="5">    
+        </div>
+        <div>
+            <h1>PASSWORD</h1>
+            <input type="password" name="senha" placeholder="Digite sua Senha">
+        </div>
+        <div>
+            <h1>RADIO</h1>
+            <p>Qual sua idade?</p>
+            <input type="radio" name="idade" value="18_22">18 a 22 <br>
+            <input type="radio" name="idade" value="23_30">23 a 30 <br>
+            <input type="radio" name="idade" value="mais31">acima de 31<br>
+        </div>
+        <div>
+            <h1>RANGE</h1>
+            Defina seu nível de satisfação:<br>
+            pouco satisfeito
+            <input type="range" name="satisfacao" min="0" max="10">
+            muito satisfeito
+        </div>
+        <div>
+            <h1>URL</h1>
+            Link do seu WebSite: <input type="url" name="webpage">
+        </div>
+        <br>
+    </form>
+    <hr>
+    <div>
+        <h1 class="texto_grande">Como funciona o Post</h1>
+        <p class="texto_normal">Envia os dados para o SERVIDOR que podera guardar no banco de dados </p>
+        <br>
+        <hr>
+    </div>
+</section>   
+
+</body>
+</html>

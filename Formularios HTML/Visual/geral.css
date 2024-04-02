@@ -1,0 +1,19 @@
+#formulario{
+    text-align: center;
+}
+
+body{
+    background-color: lightcoral;
+}
+
+.hr{
+    position: relative;
+}
+
+.texto_grande{
+    font-size: 35px;
+}
+
+.texto_normal{
+    font-size: 20px;
+}
