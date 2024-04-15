@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora</h1>
+        <form action="#" method="post">
+            <div>
+                <label for="lista"></label>
+                <select lista="lista" id="lista">
+                    <optgroup label="lista">
+                        <option value="opcao">Escolha uma operação</option>
+                        <option value="soma">Soma</option>
+                        <option value="sub">Subtação</option>
+                        <option value="mult">Multiplicação</option>
+                        <option value="divi">Divisão</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <h2>primeiro numero</h2>
+                <label for="numero1"></label>
+                <input type="number" id="Numero1" name="Numero1" required>
+            </div>
+            <div>
+                <h2>segundo numero</h2>
+                <label for="numero2"></label>
+                <input type="number" id="Numero2" name="Numero2" required>
+            </div>
+                <br>
+                <button id="calcular" type="button" onclick="calcularvalores()">Calcular</button>
+        </form>
+    </div>
+</body>
+</html>
