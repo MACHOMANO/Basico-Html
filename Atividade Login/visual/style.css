@@ -1,0 +1,68 @@
+
+.img_icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 30vmin;
+    margin-top: 30%;
+}
+
+#nome_text{
+    width: 100%;
+    text-align: center;
+    padding: 2vmin;
+} 
+#senha_password{
+    width: 100%;
+    text-align: center;
+    padding: 2vmin;
+    padding-bottom:4vmin;
+}
+
+#Entrar{
+    text-align: center;
+    font-size: 4vmin;
+    width:100%;
+    max-width:30%;
+    height: 7vmin;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nome{
+    width: 100%;
+    max-width: 50vmin;
+    height: 7vmin;
+}
+
+#senha{
+    width: 100%;
+    max-width: 50vmin;
+    height: 7vmin;
+}
+
+form{
+    width: 100%;
+    display: grid;
+    border: 1px;
+}
+
+label{
+    width: 100%;
+    border: 1px;
+    padding-top:4px ;
+    padding-bottom:7px;
+    border-style: solid;
+    border-color: rgb(65, 60, 60);
+    font-size: 4vmin;
+}
+
+p{
+    text-align: center;
+    font-size: 5vmin;
+}
+
+h1{
+    text-align: center;
+}
